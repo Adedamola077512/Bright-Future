@@ -1,11 +1,15 @@
 import { FaHome, FaUserGraduate, FaBook, FaChartBar, FaCog, FaSignOutAlt } from 'react-icons/fa';
+import logo from '../assets/logo.webp'; // Adjust the path as necessary
 
 function Sidebar({ onLogout }) {
   return (
     <div className="sidebar">
       <div className="sidebar-header">
-        <h2>Bright Future</h2>
-        <p>Admin Panel</p>
+        <img src={logo} alt="" className='sidebar-img'/>
+        <div>
+          <h2>Bright Future</h2>
+          <p>Admin Panel</p>
+        </div>
       </div>
       
       <nav className="sidebar-nav">

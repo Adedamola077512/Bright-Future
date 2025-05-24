@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import Login from './component/Login';
-import Dashboard from './component/Dashboard';
+import Login from './components/Login';
+import Dashboard from './components/Dashboard';
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
